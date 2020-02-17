@@ -1,0 +1,127 @@
+
+
+#intro {
+    padding-bottom: 10px;
+}
+
+#slider {
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+	border: 5px solid #09C;
+	border-radius:10px;
+}
+#slider a {
+	color: #ccc;
+	text-decoration: none;
+	border-bottom: 1px dotted #ccc;
+}
+
+#slider a:hover {
+	border-bottom: 1px solid rgba(0,204,255,1);
+	color:rgba(0,204,255,1);
+}
+#slider {
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+	border: 2px solid #09C;
+	border-radius:5px;
+}
+#slider a {
+	color: #000;
+	text-decoration: none;
+	border-bottom: 1px dotted #ccc;
+}
+#slider a#view_link{
+	color: #CCC;
+}
+#slider a:hover {
+	border-bottom: 1px solid rgba(0,204,255,1);
+	color:rgba(0,204,255,1);
+}
+.nivoSlider{
+	border: 10px solid #09C;
+}
+
+.scroll {
+	overflow: hidden;
+	width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.scrollContainer {
+	position: relative;
+}
+
+.scrollContainer div.panel {
+    padding: 10px;
+    width: 205px;
+	height: 300px;
+}
+
+#left-shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 12px;
+	bottom: 0;
+	background: url(../images/leftshadow.png) repeat-y;
+}
+
+#right-shadow {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 12px;
+	bottom: 0;
+	background: url(../images/rightshadow.png) repeat-y;
+}
+
+.inside {
+	padding: 10px;
+	border: 1px solid  rgba(0,153,204,1);
+}
+
+.inside img {
+	display: block;
+	margin: 0 0 10px 0;
+	width: 120px;
+	height: 130px;
+}
+
+.inside h2 {
+	font-weight: normal;
+	color: #111;
+	font-family:"Comic Sans MS", cursive;
+	font-size: 16px;
+	margin: 0 0 3px 0;
+}
+
+.inside p {
+	font-size: 11px;
+	color: #ccc;
+}
+
+.inside p.price {
+	color:rgba(0,204,255,1);
+}
+
+.scrollButtons {
+    position: absolute;
+    top: 127px;
+    cursor: pointer;
+}
+
+.scrollButtons.left {
+    left: -45px;
+}
+
+.scrollButtons.right {
+    right: -45px;
+}
+
+.hide {
+    display: none;
+}
